@@ -1,0 +1,10 @@
+main {
+  width: 100vw;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+article {
+  width: 100%;
+}

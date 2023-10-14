@@ -1,4 +1,4 @@
-const getExteriors = async () => {
+const getAllExteriors = async () => {
   const response = await fetch(`http://localhost:3000/customizations/exteriors`)
   if (response) {
     const data = response.json()
@@ -16,7 +16,7 @@ const getExteriorById = async (id) => {
   }
 }
 
-const getRoofs = async () => {
+const getAllRoofs = async () => {
   const response = await fetch(`http://localhost:3000/customizations/roofs`)
   if (response) {
     const data = response.json()
@@ -34,7 +34,7 @@ const getRoofById = async (id) => {
   }
 }
 
-const getWheels = async () => {
+const getAllWheels = async () => {
   const response = await fetch(`http://localhost:3000/customizations/wheels`)
   if (response) {
     const data = response.json()
@@ -52,7 +52,7 @@ const getWheelById = async (id) => {
   }
 }
 
-const getInteriors = async () => {
+const getAllInteriors = async () => {
   const response = await fetch(`http://localhost:3000/customizations/interiors`)
   if (response) {
     const data = response.json()
@@ -71,12 +71,12 @@ const getInteriorById = async (id) => {
 }
 
 export default {
-  getExteriors,
+  getAllExteriors,
   getExteriorById,
-  getRoofs,
+  getAllRoofs,
   getRoofById,
-  getWheels,
+  getAllWheels,
   getWheelById,
-  getInteriors,
+  getAllInteriors,
   getInteriorById,
 }

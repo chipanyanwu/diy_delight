@@ -1,0 +1,34 @@
+.car-full-details {
+  background-color: var(--card-background-color);
+  width: 90vw;
+  height: auto;
+  transition: none;
+  margin: 30px auto;
+}
+
+.create-car-options {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.car-options {
+  display: flex;
+  width: 400px;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+.car-modify {
+  display: flex;
+  align-items: center;
+}

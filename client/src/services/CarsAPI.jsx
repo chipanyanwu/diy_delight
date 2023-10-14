@@ -1,4 +1,4 @@
-const getCars = async () => {
+const getAllCars = async () => {
   const response = await fetch(`http://localhost:3000/cars`)
   if (response) {
     const data = response.json()
@@ -59,7 +59,7 @@ const deleteCar = async (id) => {
 }
 
 export default {
-  getCars,
+  getCars: getAllCars,
   getCarById,
   createCar,
   updateCar,

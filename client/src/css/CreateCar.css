@@ -1,0 +1,43 @@
+.create-car {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  padding: 5px 50px 30px;
+  display: flex;
+  align-content: center;
+}
+
+.create-car-options {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.car-options {
+  display: flex;
+  width: 400px;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-car-price {
+  position: absolute;
+  top: 80vh;
+  left: 50px;
+  width: 300px;
+  height: 80px;
+  background-color: var(--primary);
+  border: 3px solid black;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.create-car-name {
+  display: flex;
+  align-items: baseline;
+}
