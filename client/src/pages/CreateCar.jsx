@@ -24,25 +24,7 @@ const CreateCar = () => {
       <div className="create-car-options">
         <div id="customization-options" className="car-options">
           <div id="car-options">
-            <button onClick={setModalState("exterior", true)}>Exterior</button>
-            <ReactModal isOpen={modalStates.exterior}>
-              <div className="option-modal">
-                <div className="available-options">
-                  <div className="option-card">
-                    /* Turn option-card to component */
-                    <div className="option-card-overlay">
-                      <div className="option-card-details">
-                        <p>
-                          [Exterior Name] <br /> 💵 [Option Price]
-                        </p>
-                        <p></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button onClick={setModalState("exterior", false)}>Done</button>
-              </div>
-            </ReactModal>
+            <button>Exterior</button>
           </div>
           <div id="car-options">
             <button>Roof</button>
